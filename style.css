@@ -1,174 +1,69 @@
-header {
-  width: 1600px;
-  height: 80px;
-  flex-shrink: 0;
-  display: flex;
-}
-ul {
-  display: flex;
-}
-
-.navigation {
-  color: #212121;
-  padding: 30px;
+body {
   font-family: Roboto;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
   line-height: normal;
-  letter-spacing: 0.28px;
+  font-style: normal;
+}
+a {
   text-decoration: none;
-  text-align: center;
-}
-.navigation:hover {
-  color: #2196f3;
-}
-.logo {
-  text-decoration: none;
-}
-.logo1 {
-  color: #2196f3;
-  font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.78px;
-}
-.logo2 {
-  color: #000;
-  font-family: Raleway;
-  font-size: 26px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 0.78px;
-}
-
-.contact {
-  text-decoration: none;
-  color: black;
-  font-family: Roboto;
-  font-size: 14px;
-  line-height: 16.41px;
-  letter-spacing: 2%;
-}
-.contact:hover {
-  color: #2196f3;
-}
-.effect {
-  background-color: #2f303a;
-  height: 600px;
-  width: 1600px;
-  padding: 0;
-}
-.button {
-  border: 0px;
-  background-color: #2196f3;
-  color: white;
-  height: 50px;
-  border-radius: 5px;
-  color: #fff;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px; /* 187.5% */
-  letter-spacing: 0.96px;
-}
-.button:hover {
-  background-color: #0b2840;
-}
-footer {
-  width: 1600px;
-  height: 252px;
-  flex-shrink: 0;
-  background-color: #2f303a;
-}
-.ef2 {
-  color: #fff;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 60px; /* 136.364% */
-  letter-spacing: 2.64px;
-  text-transform: uppercase;
-}
-.team {
-  width: 1600px;
-  height: 648px;
-  background: #f5f4fa;
-  flex-shrink: 0;
 }
 ul {
   list-style-type: none;
 }
-.contact2 {
-  text-decoration: none;
-  color: grey;
-}
-.contact2:hover {
-  color: aqua;
-}
-.adress {
-  color: white;
-}
-h3 {
-  font-family: Roboto;
-  font-size: 14px;
-  line-height: 16.41px;
-  letter-spacing: 3%;
-  font-weight: 700;
-  color: #212121;
-}
-p {
-  font-family: Roboto;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 3%;
-  font-weight: 400;
-  color: #757575;
-}
-.about {
-  font-family: Roboto;
-  font-size: 36px;
-  line-height: 42.19px;
-  letter-spacing: 3%;
-  font-weight: 700;
-  text-align: center;
-}
-.person {
-  width: 270px;
-  height: 368px;
+
+.header {
+  display: flex;
+  width: 1600px;
+  height: 80px;
   flex-shrink: 0;
-  border-radius: 0px 0px 4px 4px;
   background: #fff;
 }
-
-.team3 {
-  font-family: Roboto;
-  font-size: 36px;
-  line-height: 42.19px;
-  letter-spacing: 3%;
+.header-logo1 {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
   font-weight: 700;
-  text-align: center;
+  letter-spacing: 0.78px;
 }
-.img-main {
-  text-align: center;
-  margin-left: 150px;
+.header-logo2 {
+  color: #000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
 }
-.img {
-  display: inline-block;
-  padding: 10px;
-  width: 370px;
-  height: 294px;
+.nav {
+}
+.nav-list {
+}
+.nav-item {
+}
+
+.nav-link {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+.nav-link:hover {
+  color: #2196f3;
+}
+
+.header-contact {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+.header-contact:hover {
+  color: #2196f3;
+}
+.decision {
+  width: 1600px;
+  height: 600px;
   flex-shrink: 0;
-  text-align: center;
+  background: #2f303a;
 }
-.ef1 {
+.decision-container {
   display: flex;
   width: 696px;
   height: 120px;
@@ -176,57 +71,138 @@ p {
   align-items: center;
   flex-shrink: 0;
 }
-.name {
+.decision-title {
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px; /* 136.364% */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+.decision-button {
+  width: 216px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+}
+.details {
+}
+.details-list {
+  display: flex;
+}
+.details-items {
+}
+.details-title {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.details-text {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+}
+.about {
+}
+.about-title {
   color: #212121;
   text-align: center;
-  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.about-list {
+}
+.about-items {
+}
+.about-img {
+}
+.team {
+  width: 1600px;
+  height: 648px;
+  flex-shrink: 0;
+  background: #f5f4fa;
+}
+.team-title {
+  color: #212121;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.team-list {
+}
+.team-items {
+  display: inline-block;
+  width: 270px;
+  height: 368px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+}
+.team-img {
+}
+.team-name {
+  color: #212121;
+  text-align: center;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   letter-spacing: 0.48px;
 }
-.work {
+.team-work {
   color: #757575;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   letter-spacing: 0.48px;
 }
-.logo3 {
+.footer {
+  width: 1600px;
+  height: 252px;
+  flex-shrink: 0;
+  background: #2f303a;
+}
+.footer-logo1 {
+  color: #2196f3;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+.footer-logo2 {
   color: #fff;
   font-family: Raleway;
   font-size: 26px;
-  font-style: normal;
   font-weight: 700;
-  line-height: normal;
   letter-spacing: 0.78px;
 }
-.adress1 {
-  width: 231px;
-  height: 21px;
-  flex-shrink: 0;
+.footer-list {
+}
+.footer-items {
+}
+.footer-text {
   color: #fff;
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
 }
-.contact1 {
-  width: 136px;
-  height: 21px;
-  flex-shrink: 0;
+.footer-link {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Roboto;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 171.429% */
   letter-spacing: 0.42px;
-  text-decoration: none;
 }
