@@ -3,8 +3,9 @@ body {
   line-height: normal;
 }
 .container {
-  width: 1600px;
+  width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 a {
   text-decoration: none;
@@ -49,7 +50,6 @@ li {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
-  margin-left: 215px;
 }
 .nav {
 }
@@ -75,7 +75,6 @@ li {
 .header-items {
   display: flex;
   gap: 50px;
-  margin-right: 215px;
 }
 .header-contact {
   color: #757575;
@@ -88,14 +87,12 @@ li {
 }
 .decision {
   background-color: #2f303a;
-  width: 1600px;
   height: 600px;
-  flex-shrink: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin: 0 auto;
 }
 .decision-container {
-  padding-top: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
 }
 .decision-title {
   width: 696px;
@@ -106,8 +103,10 @@ li {
   line-height: 1.36; /* 136.364% */
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  margin: 30px auto;
 }
 .decision-button {
+  display: block;
   color: #fff;
   text-align: center;
   font-size: 16px;
@@ -121,8 +120,7 @@ li {
   padding-bottom: 10px;
   padding-left: 34px;
   padding-right: 34px;
-  margin-top: 30px;
-  margin-left: 692px;
+  margin: 0 auto;
 }
 .details {
 }
@@ -130,8 +128,6 @@ li {
   display: flex;
   margin-top: 94px;
   margin-bottom: 94px;
-  margin-left: 215px;
-  margin-right: 215px;
   gap: 30px;
   justify-content: space-between;
 }
@@ -153,14 +149,8 @@ li {
   margin-top: 10px;
 }
 .about {
-}
-.about-container {
-  width: 1170px;
   height: 386px;
-  flex-shrink: 0;
-  margin-left: 215px;
-  margin-right: 215px;
-  margin-bottom: 94px;
+  margin-bottom: 96px;
 }
 .about-title {
   color: #212121;
@@ -179,7 +169,7 @@ li {
   height: 294px;
   flex-shrink: 0;
   justify-content: space-between;
-  padding-right: 15px;
+  margin-right: 15px;
 }
 
 .team {
@@ -203,8 +193,7 @@ li {
 .team-list {
   display: flex;
   gap: 30px;
-  margin-left: 215px;
-  margin-right: 215px;
+  margin: 0 auto;
 }
 .team-items {
   width: 270px;
@@ -238,9 +227,6 @@ li {
   height: 252px;
   background: #2f303a;
   padding-top: 60px;
-}
-.footer-container {
-  margin-left: 215px;
 }
 .footer-logo {
   color: #fff;
@@ -321,7 +307,7 @@ li {
   color: #fff;
   background: #2196f3;
 }
-.portfolio-list{
+.portfolio-list {
 }
 .portfolio-items {
   width: 370px;
@@ -330,7 +316,7 @@ li {
   border: 1px solid #eee;
   background: #fff;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
-  0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .portfolio-img {
   width: 370px;
