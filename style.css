@@ -123,17 +123,46 @@ li {
   margin: 0 auto;
 }
 .details {
-  height: 98px;
+  margin-top: 98px;
+  margin-bottom: 98px;
 }
 .details-list {
   display: flex;
-  margin-top: 94px;
-  margin-bottom: 94px;
   gap: 30px;
   justify-content: space-between;
 }
-.details-items {
+
+.img-box {
+  width: 270px;
+  height: 120px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #f5f4fa;
+  margin-bottom: 30px;
 }
+.img-box-antena::before {
+  display: flex;
+  content: url(img/svg/antenna\ 1.svg);
+  padding: 25px 100px;
+}
+.img-box-clock::before {
+  display: flex;
+  content: url(img/svg/clock\ 1.svg);
+  padding: 25px 100px;
+}
+.img-box-diagram::before {
+  display: flex;
+  content: url(img/svg/diagram\ 1.svg);
+  padding: 25px 100px;
+
+}
+.img-box-astronaut::before {
+  display: flex;
+  content: url(img/svg/astronaut\ 1.svg);
+  padding: 25px 100px;
+ margin-bottom: 30px;
+}
+
 .details-title {
   color: #212121;
   font-size: 14px;
@@ -152,7 +181,7 @@ li {
 .about {
   height: 386px;
   margin-bottom: 96px;
-  margin-top: 118px;
+  
 }
 .about-title {
   color: #212121;
