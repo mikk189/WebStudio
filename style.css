@@ -56,7 +56,6 @@ li {
 .nav-list {
   display: flex;
   gap: 50px;
-  margin-left: ;
 }
 .nav-item {
 }
@@ -154,13 +153,12 @@ li {
   display: flex;
   content: url(img/svg/diagram\ 1.svg);
   padding: 25px 100px;
-
 }
 .img-box-astronaut::before {
   display: flex;
   content: url(img/svg/astronaut\ 1.svg);
   padding: 25px 100px;
- margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .details-title {
@@ -181,7 +179,6 @@ li {
 .about {
   height: 386px;
   margin-bottom: 96px;
-  
 }
 .about-title {
   color: #212121;
@@ -232,6 +229,8 @@ li {
   border-radius: 0px 0px 4px 4px;
   background: #fff;
   gap: 30px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .team-img {
   width: 270px;
