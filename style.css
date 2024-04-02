@@ -13,8 +13,11 @@ a {
 ul {
   list-style-type: none;
 }
+*,
 ::before,
-::after
+::after {
+  box-sizing: border-box;
+}
 h1,
 h2,
 h3,
@@ -84,7 +87,11 @@ li {
   color: #2196f3;
 }
 .decision {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(img/hero.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(img/hero.jpg);
   height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -238,7 +245,6 @@ li {
 .team-name {
   display: flex;
   justify-content: center;
-  align-items: center;
   color: #212121;
   font-size: 16px;
   font-weight: 500;
@@ -254,6 +260,7 @@ li {
   font-weight: 400;
   letter-spacing: 0.48px;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 .footer {
   height: 252px;
